@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: url("../images/new.gif") repeat ;
+}
+header{
+    margin-top: 10px;
+}
+.logo{
+    margin-left: -665px;
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    padding-right: 600px;
+    margin-top: -8px;
+}
+header div{
+    height: 100%;
+    margin-left:30px ;
+}
+header nav{
+    height: 75px;
+    width: 1200px;
+    background-color:#3d3d3d;
+    border-radius:6px ;
+    margin: auto;
+}
+header nav ul{
+    display: flex;/*располагаем горизонтально меню*/
+    list-style: none;/*убираем маркеры списка*/
+    margin-left: 700px;
+}
+header nav ul a{
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Abel', sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    color: whitesmoke;
+    display: block;
+    height:50px;
+    padding-top: 25px;
+}
+.active{
+    background-color: antiquewhite;
+    color: #3d3d3d;
+}
+.container{
+    height: 828px;
+    width: 1200px;
+    background-color: rgba(245,243,241,0.5);
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 6px;
+    display: flex;
+}
+.choose{
+    flex: 1;
+    background-color: aquamarine;
+    display: flex;
+}
+.calculator{
+    width: 400px;
+    margin-left: 15px;
+    background-color: aqua;
+}
+.lchoose{
+    flex: 1;
+}
+.choose h1{
+    text-align: center;
+    padding: 15px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 200;
+}
+.rchoose{
+    margin-left: 15px;
+    background-color: beige;
+    width: 45%;
+}
+.lch{
+    list-style: none;
+    margin-left: 120px;
+}
+
+.lch div{
+    width: 200px;
+    height: 50px;
+    background-color: azure;S
+}
+.lch div p{
+    text-align: center;
+    padding-top: 15px;
+
+}
